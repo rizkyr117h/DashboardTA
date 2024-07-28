@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power BI Dashboards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="./TELKOM HITAM.png" alt="Logo" class="logo">
+            <h1>Dashboard Satu Data Akademik Telkom University</h1>
+        </div>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <ul class="dashboard-list">
+                <li><button onclick="showDashboard('dashboard1', this)">Penerimaan Mahasiswa Baru</button></li>
+                <li><button onclick="showDashboard('dashboard2', this)">Perwalian</button></li>
+                <li><button onclick="showDashboard('dashboard3', this)">Registrasi</button></li>
+                <li><button onclick="showDashboard('dashboard4', this)">Perkuliahan</button></li>
+                <li><button onclick="showDashboard('dashboard5', this)">Penilaian</button></li>
+                <li><button onclick="showDashboard('dashboard6', this)">Nilai</button></li>
+                <li><button onclick="showDashboard('dashboard7', this)">Kelulusan & Wisuda</button></li>
+                <li><button onclick="showDashboard('dashboard8', this)">Penjaminan Mutu</button></li>
+            </ul>
+        </aside>
+        <main class="main-content">
+            <div id="dashboard1" class="dashboard-item">
+                <iframe title="Perwalian"
+                    <iframe title="file" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMWI5OGQ5NjQtN2VhOC00Y2FhLTk5MzQtODBkNzg5NGQ2YzNlIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+            <div id="dashboard2" class="dashboard-item" style="display: none;">
+                <iframe title="Perwalian" width="600" height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiZjFjYjk4MDEtMDZiYi00ZmU0LTk0Y2QtYjlmNTBmODljYzFiIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
+                    frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+            <div id="dashboard3" class="dashboard-item" style="display: none;">
+                <iframe title="Registrasi" width="600" height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiMDQ2ZjIxODctYzI2ZS00ZDY1LThmNDktMjQyZDFkYTVjNzU1IiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
+                    frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+            <div id="dashboard4" class="dashboard-item" style="display: none;">
+                <iframe title="New" width="600" height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiNmFkNmM2ZDgtMWZhYS00NTVkLWFhZjUtMmFkODA0YWYzZTZhIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
+                    frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+            <div id="dashboard5" class="dashboard-item" style="display: none;">
+                <iframe title="Penilaian" width="600" height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiMWM1M2YxN2EtYmU0Ny00NTYzLWIzMmUtYWUyZDgxMWY4OGNmIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
+                    frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+            <div id="dashboard6" class="dashboard-item" style="display: none;">
+                <iframe title="Nilai" width="600" height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiZDQ0NDg2YTYtMmMxMS00MzU3LTg0NmQtNDZlYmI2MGU4ZTlmIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
+                    frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+            <div id="dashboard7" class="dashboard-item" style="display: none;">
+                <iframe title="Kelulusan & Wisuda" width="600" height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiYmEyN2FjMmQtODY5ZC00Y2NkLTg0OWQtZTIxOTlhZDQ5MTlkIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
+                    frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+            <div id="dashboard8" class="dashboard-item" style="display: none;">
+                <iframe title="Penjaminan Mutu" src="YOUR_EMBED_URL_8" allowFullScreen="true"></iframe>
+            </div>
+        </main>
+    </div>
+    <script>
+        function showDashboard(dashboardId, button) {
+            var dashboards = document.querySelectorAll('.dashboard-item');
+            dashboards.forEach(function (dashboard) {
+                dashboard.style.display = 'none';
+            });
+            document.getElementById(dashboardId).style.display = 'block';
+
+            var buttons = document.querySelectorAll('.dashboard-list button');
+            buttons.forEach(function (btn) {
+                btn.classList.remove('active');
+            });
+            button.classList.add('active');
+        }
+    </script>
+</body>
+
+</html>
