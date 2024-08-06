@@ -18,52 +18,68 @@
     <div class="container">
         <aside class="sidebar">
             <ul class="dashboard-list">
-                <li><button onclick="showDashboard('dashboard1', this)">Penerimaan Mahasiswa Baru</button></li>
-                <li><button onclick="showDashboard('dashboard2', this)">Perwalian</button></li>
-                <li><button onclick="showDashboard('dashboard3', this)">Registrasi</button></li>
-                <li><button onclick="showDashboard('dashboard4', this)">Perkuliahan</button></li>
-                <li><button onclick="showDashboard('dashboard5', this)">Penilaian</button></li>
-                <li><button onclick="showDashboard('dashboard6', this)">Nilai</button></li>
-                <li><button onclick="showDashboard('dashboard7', this)">Kelulusan & Wisuda</button></li>
-                <li><button onclick="showDashboard('dashboard8', this)">Penjaminan Mutu</button></li>
+                <li><button onclick="showDashboard('dashboard0', this)">Status Mahasiswa</button></li>
+                <li><button onclick="showDashboard('dashboard1', this)">Demografi Mahasiswa</button></li>
+                <li><button onclick="showDashboard('dashboard2', this)">Pelaksanaan Perkuliahan</button></li>
+                <li><button onclick="showDashboard('dashboard3', this)">Program Mahasiswa</button></li>
+                <li><button onclick="showDashboard('dashboard4', this)">Rata-rata IPK</button></li>
+                <li><button onclick="showDashboard('dashboard5', this)">Sebaran Nilai</button></li>
+                <li><button onclick="showDashboard('dashboard6', this)">Unggah Nilai</button></li>
+                <li><button onclick="showDashboard('dashboard7', this)"> Akreditas </button></li>
+                <li><button onclick="showDashboard('dashboard8', this)">Wisuda</button></li>
+                <li><button onclick="showDashboard('dashboard9', this)">Kelulusan</button></li>
             </ul>
         </aside>
         <main class="main-content">
+            <div id="dashboard0" class="dashboard-item">
+                <iframe title="Status Mahasiswa" width="600" height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiYTljOGQ5ZGItNDQ2OC00YWMyLTlkMWMtOWY5ODdiMGY4ZTRjIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
+                    frameborder="0" allowFullScreen="true"></iframe>
+            </div>
             <div id="dashboard1" class="dashboard-item">
-                <iframe title="Penerimaan Mahasiswa" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNzUxNDMxMDYtZTRlMC00YjQyLWIxZmUtMDI2NTQ0ZDNkZDE4IiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+                <iframe title="Demografi" width="600" height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiNzZlYjk2N2QtZjE4My00Yzc2LThmZDEtZGFiN2Y3NDVlYTdmIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
+                    frameborder="0" allowFullScreen="true"></iframe>
             </div>
             <div id="dashboard2" class="dashboard-item" style="display: none;">
-                <iframe title="Perwalian" width="600" height="373.5"
-                    src="https://app.powerbi.com/view?r=eyJrIjoiZjFjYjk4MDEtMDZiYi00ZmU0LTk0Y2QtYjlmNTBmODljYzFiIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
+                <iframe title="Pelaksaan Perkuliahan" width="600" height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiNTExZTc3OTEtMzgyYi00Mjc2LWE0ZmEtMzY2MTI0NGNlNDc3IiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
                     frameborder="0" allowFullScreen="true"></iframe>
             </div>
             <div id="dashboard3" class="dashboard-item" style="display: none;">
-                <iframe title="New" width="600" height="373.5"
-                    src="https://app.powerbi.com/view?r=eyJrIjoiNDdjYzYwMDAtNWFiMC00NzAyLWFiMGEtYzA1ZjI0OGQ0NWJlIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
+                <iframe title="Program Mahasiswa" width="600" height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiOTNjMTU1ZjQtODI2YS00NzAzLTlhNTEtZjA2NTZhMmRjMGVlIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
                     frameborder="0" allowFullScreen="true"></iframe>
             </div>
             <div id="dashboard4" class="dashboard-item" style="display: none;">
-                <iframe title="New" width="600" height="373.5"
-                    src="https://app.powerbi.com/view?r=eyJrIjoiNmFkNmM2ZDgtMWZhYS00NTVkLWFhZjUtMmFkODA0YWYzZTZhIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
+                <iframe title="Rata-Rata IPK" width="600" height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiZTYyNzBjYjMtY2FiOC00M2Y0LTliMGYtN2U3OTM4ZWZlZjVlIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
                     frameborder="0" allowFullScreen="true"></iframe>
             </div>
             <div id="dashboard5" class="dashboard-item" style="display: none;">
-                <iframe title="Penilaian" width="600" height="373.5"
-                    src="https://app.powerbi.com/view?r=eyJrIjoiMWM1M2YxN2EtYmU0Ny00NTYzLWIzMmUtYWUyZDgxMWY4OGNmIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
+                <iframe title="Sebaran Nilai" width="600" height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiYjJkMGNlYjgtMDZlNS00YTI3LThlYTEtYTVlNmMyNjMyMTg3IiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
                     frameborder="0" allowFullScreen="true"></iframe>
             </div>
             <div id="dashboard6" class="dashboard-item" style="display: none;">
-                <iframe title="Nilai" width="600" height="373.5"
-                    src="https://app.powerbi.com/view?r=eyJrIjoiZDQ0NDg2YTYtMmMxMS00MzU3LTg0NmQtNDZlYmI2MGU4ZTlmIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
+                <iframe title="Unggah Nilai" width="600" height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiZWEyNmI5ZmItMjc2MC00YjI1LWExNmUtYzcxZmQ5MDY1YTQ1IiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
                     frameborder="0" allowFullScreen="true"></iframe>
             </div>
             <div id="dashboard7" class="dashboard-item" style="display: none;">
-                <iframe title="Kelulusan & Wisuda" width="600" height="373.5"
-                    src="https://app.powerbi.com/view?r=eyJrIjoiYmEyN2FjMmQtODY5ZC00Y2NkLTg0OWQtZTIxOTlhZDQ5MTlkIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
+                <iframe title="Akreditasi" width="600" height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiOGRhMTA2MDQtYTIxZi00NGQ1LWJhZmEtNzRmZjhjMGYzZjcxIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
                     frameborder="0" allowFullScreen="true"></iframe>
             </div>
             <div id="dashboard8" class="dashboard-item" style="display: none;">
-                <iframe title="Penjaminan Mutu" src="YOUR_EMBED_URL_8" allowFullScreen="true"></iframe>
+                <iframe title="Wisuda" width="600" height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiODU1M2Q1OTAtYjY2ZS00Yzc3LWFjMTAtNTdmZTE1MTA5YTQyIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
+                    frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+            <div id="dashboard9" class="dashboard-item" style="display: none;">
+                <iframe title="Kelulusan" width="600" height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiYmIyZWU2YTgtYjk5NC00YWZmLWI0YTAtMjU4ZTM3MDE5OTUxIiwidCI6IjkwYWZmZTBmLWMyYTMtNDEwOC1iYjk4LTZjZWI0ZTk0ZWYxNSIsImMiOjEwfQ%3D%3D"
+                    frameborder="0" allowFullScreen="true"></iframe>
             </div>
         </main>
     </div>
